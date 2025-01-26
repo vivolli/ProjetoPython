@@ -1,0 +1,8 @@
+peu = str(input('Digite algo pelo teclado? ')).strip().lower()
+dre = peu.count('a')
+fre = peu.find('a')
+peu.replace('á','a')
+ava = peu.rfind('a')
+print(f'A quantidade de vezes que a letra "A" aparece na frase é: {dre}')
+print(f'A letra "a" aparece pela primeira vez na posicao: {fre+1}' )
+print(f'A ultima vez que a letra "a" aparece é na posicao: {ava+1}')
