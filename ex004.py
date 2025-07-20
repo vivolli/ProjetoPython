@@ -7,3 +7,4 @@ print(f'É alfanúmerico? {variavel.isalnum()}')
 print(f'Está em maiúsculas? {variavel.isupper()}')
 print(f'Está em minúsculas? {variavel.islower()}')
 print(f'Está capitalizada? {variavel.istitle()}')
+

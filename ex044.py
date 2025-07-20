@@ -10,14 +10,14 @@ valor = float(input('Digite o valor da compra: R$'))
 if escolha == 4:
     quantidade = int(input('Digite a quantidade de parcelas: '))
     print(f'O valor pago sera de R${valor + (valor * 10)/100:.2f}')
-    print(f'Parcelado em {quantidade}x, o valor de cada parcela saira R${valor+(valor*10/100)/quantidade}')
+    print(f'Parcelado em {quantidade}x, o valor de cada parcela saira R${(valor+(valor*10/100))/quantidade:.2f}')
 elif escolha == 1:
-    print(f'O valor pago no dinheiro/cheque sera de R${valor - (valor * 10 / 100):.1f}.')
+    print(f'O valor pago no dinheiro/cheque sera de R${valor - (valor * 10 / 100):.1f}!')
 elif escolha == 2:
-    print(f'O valor pago no cartao a vista sera de, R${valor - (valor * 5 / 100):.2f}.')
+    print(f'O valor pago no cartao a vista sera de, R${valor - (valor * 5 / 100):.2f}!')
 elif escolha == 3:
-    print(f'O valor pago no cartao em 2x sera de, R${valor:.2f}.')
-    print(f'O valor de cada parcela sera de {valor/2}')
+    print(f'O valor pago no cartao em 2x sera de, R${valor:.2f}!')
+    print(f'O valor de cada parcela sera de {valor/2}!')
 elif escolha == 4:
     print('O valor pago no cartao em ')
 else:

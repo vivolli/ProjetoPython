@@ -1,11 +1,12 @@
 from datetime import date
-sexo = str(input('''INFORME SEU SEXO
+sexo = str(input('''
+INFORME SEU SEXO
 [ 1 ] MASCULINO
 [ 2 ] FEMININO
 INFOME AQUI: '''))
 if sexo == '2':
     print('Você nao precisa se alistar, tenha um Bom Dia!')
-else:
+elif sexo == '1':
     data = int(input('Digite seu ano de nascimento: '))
     ano = date.today().year
     idade = ano - data
